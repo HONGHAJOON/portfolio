@@ -1,0 +1,533 @@
+.Dropdown{
+  width: 202px;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.57);
+  text-align: center;
+}
+.Button_Lecture{
+  width: 100px; height: 38px;
+  font-size: large;
+  float: right;
+  color: white;
+  border-radius: 10px;
+  background-color: #1F3468;
+  margin: 10px 0 10px 10px;
+  padding: 0px;
+}
+.container_body{
+  width: 1050px;
+  margin: 30px auto 60px;
+}
+.table_body{
+  width: 1042px;
+  background-color: rgba(73, 82, 169, 0.1);
+  border-radius: 36px;
+  padding: 28px 36.5px 28px 36.5px;
+  margin-top: 22px;
+}
+.thead{
+  display: inline-block;
+  color: #403E98;
+  font-size: 23px;
+  font-weight: 900;
+  padding-bottom: 18.5px;
+  margin-top: 22px;
+}
+.table_tr{
+  background-color: white;
+  border: solid 0.1px;
+  border-color: #C0C0C0;
+  border-radius: 10px;
+  height: 100px;
+  padding: 36px 0 36px 0;
+  margin: 7.5px 0 7.5px 0;
+}
+.table_tr:hover{
+  border-color: #403E98;
+  cursor: pointer;
+}
+.table_td{
+  display: inline-block;
+  font-size: 23px;
+}
+.Lecture_List_Input{
+  margin-top: 10px;
+  display: inline-block;
+  width: 120px; height: 50px;  
+  font-size: 20px;
+}
+
+
+
+
+.Lecture_Write_body{
+  width: 1142px;
+  margin: 41px auto 100px;
+}
+.Button_Lecture_Write{
+  width: 100px; height: 38px;
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  background-color: #1F3468;
+  margin: 10px 0 0px 10px;
+  padding: 0;
+}
+.Lecture_Write_Container{
+  background-color: ghostwhite;
+  box-shadow: 2px 2px 1px -1px rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(194, 194, 194, 0.25); */
+  border-radius: 22px;
+  margin-top: 15px;
+  padding: 40px 0 40px 36.5px;
+}
+.Lecture_Write_header{
+  margin-top: 10px;
+  margin-right: 874px;
+  font-size: 24px;
+  font-weight: 900;
+}
+.Lecture_Write_FormGroup{
+  display: inline-block;
+}
+.right{
+  /* float: right; */
+}
+.left{
+  /* float: left; */
+  margin-left: 18px;
+  margin-right: 30px;
+}
+.Lecture_Write_Label{
+  font-size: larger;
+  margin-right: 20px;
+}
+.Lecture_Write_Input{
+  display: inline-block;
+  font-size: larger;
+  width: 230px; height: 54px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+
+.lectureDashBoard-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 73px;
+  padding: 50px 88px;
+  cursor: pointer;
+}
+.LectDashboard_body{
+  width: 1138px;
+  margin: 0 auto;
+}
+.Contents_header{
+
+}
+.LectDashboard_Card{
+  width: 286px;
+  display: inline-block;
+  margin: 20px 46px;
+  cursor: pointer;
+}
+.LectDashboard_Card_BackColor{
+  background-color: coral;
+  width: 286px; height: 100px;
+  border: #C0C0C0 0.5px;
+  
+  border-radius: 3px;
+}
+.LectDashboard_CardBody{
+  width: 286px;
+}
+.LectDashboard_CardText {
+  margin: 0;  
+}
+
+
+
+
+
+
+.Contents_Body{
+  margin: 20px auto 100px;
+  width: 1250px;
+}
+.Contents_Top_Buttons{
+  cursor: pointer;
+  width: 53px; height: 53px;
+  margin: 10px 15px;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  display: inline-block;
+  border: solid 5px;
+  border-color: #1F3468;
+}
+.Contents_Divs{
+  width: 1100px;
+  margin: 0 0 5px 110px;
+  display: flex;
+}
+.Contents_Divs_Title{
+  margin: 5px 10px 0 20px;
+}
+.Contents_Divs_Button{
+  margin-top: 5px;
+  font-size: smaller;
+  padding: 1px 10px 0px 10px;
+}
+
+
+
+
+
+
+
+
+.Homework_body{
+  width: 1042px; height: 600px;
+  background-color: rgba(151, 152, 156, 0.1);
+  padding: 50px 0;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+.Homework_Form{
+  width: 860px;
+  margin: 0 auto;
+}
+.Homework_FormGrop{
+  display: inline-block;
+}
+.Homework_Write_Label{
+  font-size: 24px;
+  margin-right: 0px;
+}
+.Homework_Write_Input{
+  display: inline-block;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.Button_Homework_Write{
+  float: right;
+  width: 120px; height: 50px;
+  font-size: 24px;
+  color: white;
+  border-radius: 10px;
+  background-color: #1F3468;
+  margin-left: 20px;
+}
+
+
+
+
+.HomeworkSubmitList_body{
+  width: 1042px;
+}
+.HomeworkSubmitList_Title{
+  font-size: 28px;
+  font-weight: 900;
+}
+.HomeworkSubmitList_Div_Table{
+  margin: 0 auto;
+  width: 1002px;
+}
+.HomeworkSubmitList_Table{
+  margin-top: 20px;
+}
+.HomeworkSubmitList_Table>thead{
+  font-size: 24px;
+}
+.HomeworkSubmitList_Table>tbody{
+  font-size: 20px;
+}
+.HomeworkSubmitList_Div_Button{
+  text-align: right;
+}
+.HomeworkSubmitList_Button{
+  width: 120px; height: 50px;
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  border-radius: 10px;
+  background-color: #1F3468;
+  margin-left: 20px;
+}
+.HomeworkSubmitList_Input{
+  width: 80px;
+}
+
+
+
+
+.AttendManage_Body{
+  width: 1200px;
+  margin: 50px auto 50px;
+}
+.AttendManage_Header{
+  margin-bottom: 45px;
+}
+.AttendManage_Header_Button{
+  float: right;
+  width: 100px;
+  margin-left: 10px;
+}
+.AttendManage_Table{
+  overflow-x: scroll;
+}
+.AttendManage_Table_thead{
+  white-space: nowrap;
+  text-align: center;
+  padding: 5px;
+}
+/* .AttendManage_Table > th{
+  background-color: #1F3468;
+  color: #ffffff;
+} */
+.AttendManage_Table_td{
+  padding: 5px;
+}
+.AttendManage_Select{
+  width: 55px;
+  border-radius: 8px;
+  border:none;
+  padding: 2px 2px;
+}
+
+
+
+
+
+
+.ExamQuestionForm_Body{
+  width: 1042px;
+  margin: 40px auto;
+}
+.ExamQuestionForm_Body > label { 
+  font-size: 20px;
+}
+.ExamQuestionForm_Input{
+  width: 200px;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.ExamQuestionForm_Collapse{
+  border: none !important;
+  border-radius: 20px !important;
+  padding: 10px 0;
+}
+.ExamQuestionForm_For_Div{
+  background-color: rgba(194, 194, 194, 0.25);
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px 30px 20px 30px;
+}
+.ExamQuestionForm_For_Div > Label {
+  margin: 0px 10px 0 0;
+}
+.ExamQuestionForm_For_Input {
+  display: inline-block;
+  width: 800px;
+  margin-bottom: 5px;
+}
+.ExamQuestionForm_For_Input_Answer{
+  display: inline-block;
+  width: 50px;
+}
+.ExamQuestionForm_Button{
+  margin-left: 227px;
+  width: 150px; height: 50px;
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  border-radius: 10px;
+  background-color: #1F3468;
+}
+.ExamQuestionForm_Div_Button{
+  float: right;
+  width: 150px; height: 50px;
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  border-radius: 10px;
+  background-color: #1F3468;
+}
+
+
+
+
+
+
+
+
+
+
+.GradeManage_Table_Input{
+  width: 52px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
+
+
+.Appeal_body{
+  width: 1140px;
+  margin: 0 auto 50px;
+  padding: 20px 80px;
+  background-color: rgba(73, 82, 169, 0.1);
+  border-radius: 36px;
+}
+.Appeal_Input{
+  float: right;
+  width: 100px;
+  margin: 10px 0 10px 10px;
+}
+.Appeal_Button{
+  width: 60px;
+}
+.Appeal_Table{
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.Appeal_Table_Thead{
+  color: #403E98;
+  height: 80px;
+}
+.Appeal_Table_TBody{
+  font-weight: 900;
+}
+.Appeal_Table_Tr:hover{
+  cursor: pointer;
+}
+.Appeal_Table_Tr td{
+  background-color: white;
+  border-top: solid #C0C0C0 0.1px;
+  border-bottom: solid #C0C0C0 0.1px;
+}
+.Appeal_Table_Tr td:first-child {
+  border-left: solid #C0C0C0 0.1px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.Appeal_Table_Tr td:last-child {
+  border-right: solid #C0C0C0 0.1px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.Appeal_Table_spacer td{
+  height: 20px;
+}
+
+.Appeal_Table_Td{
+  height: 100px;
+}
+
+
+
+
+.AppealDetail_Body{
+  width: 1140px;
+  margin: 50px auto 50px;
+}
+
+
+
+
+
+.ScoreList_SearchInput{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right-color: white;
+}
+.ScoreList_SearchButton{
+  float: right;
+  margin: 10px -8px;
+  padding: 6px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: solid 0.1px rgba(0, 0, 0, 0.1);
+}
+.ScoreList_SearchButton:hover{
+  cursor: pointer;
+}
+.ScoreList_StudentBody{
+  margin: 0 0 100px 114px;
+  width: 700px; 
+  display: inline-block;
+}
+.ScoreList_Student_Table{
+  text-align: center;
+  font-size: larger;
+  border-collapse: separate;
+  border-spacing: 0px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+.ScoreList_Student_Thead{
+  background-color: #403E98;
+  display: flex;
+  height: 50px;
+  color: white;
+}
+.ScoreList_Student_Th{
+  
+  padding: 12.5px 0;
+}
+.ScoreList_Student_Tbody{
+
+}
+.ScoreList_Student_Tr{
+  display: flex;
+  height: 70px;
+  border-bottom: 0.1px solid #C0C0C0;;
+}
+.ScoreList_Student_Tbody :hover > .ScoreList_Student_Td{
+  background-color: #f0eff7;
+}
+.ScoreList_Student_Td{
+  padding: 21px 0;
+  
+}
+
+.ScoreList_Lecture_Body{
+  /* display: inline-block; */
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 20px 20px;
+  background-color: #f0f0f0;
+}
+
+.ScoreList_Lecture_Header{
+  margin: 0 0 10px 0;
+}
+.ScoreList_Lecture_Input{
+  width: 123px;
+}
+.ScoreList_Lecture_Table{
+  width: 620px;
+  box-shadow: 1px 2px 5px rgb(127 127 127 / 50%);
+}
+.ScoreList_Lecture_Thead{
+  display: flex;
+  height: 50px;
+  padding: 12.5px 0;
+  background-color: #d3d2e4;
+}
+.ScoreList_Lecture_Tr{
+  display: flex;
+  height: 50px;
+  padding: 12.5px 0;
+  background-color: white;
+}
