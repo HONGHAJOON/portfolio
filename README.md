@@ -1,3 +1,2 @@
 ## Project
-- MoongStar
-- HankukUniversity
+
